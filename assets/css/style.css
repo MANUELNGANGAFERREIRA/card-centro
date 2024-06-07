@@ -1,0 +1,107 @@
+
+
+body{
+    margin: 0;
+}
+main{
+    background-color: #d4cfcf;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    
+    position: relative;
+}
+.star{
+    margin: 4px;
+    transform: translateY(10px);
+    width: 30px;
+}
+
+.wall-head{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    
+
+}
+
+.wall-head img{
+    width: 100%;
+}
+.card{
+    z-index: 2;
+    background-color: #f0ebeb;
+    border-radius: 8px;
+    width: 33%;
+    height: 70vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+strong{
+    
+    position: relative;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 20px;
+    font-size: 28px;
+}
+.textos{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+}
+.txt1, .txt2, .txt3, .txt4{
+    display: flex;
+    flex-direction: column;
+    padding: 7px;
+    
+}
+h2{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    transition: .5s;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
+p{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 200;
+    color: #787676;
+   
+}
+.box-icon{
+    
+    display: inline;
+    position: relative;
+   
+}
+.plus{
+    color: blueviolet;
+    font-size: 21px;
+    transform: translateY(-4px);
+    
+    
+    
+}
+.plus:hover{
+    visibility: hidden;
+    
+}
+.minus{
+    position: absolute;
+    font-size: 21px;
+    transform: translateY(-4px);
+    transition: .5s;
+}
+h2:hover{
+    
+    color: blueviolet;
+}
